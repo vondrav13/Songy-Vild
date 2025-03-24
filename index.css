@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    color: #333;
+    background-color: bisque;
+    font-family: 'Times gorgia';
+
+}
+body{
+    background-color: #f0f0f0;
+    font-family: 'Times gorgia';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.logo {
+    width: 150px;
+    animation: bounce 2s infinite ease-in-out;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+
